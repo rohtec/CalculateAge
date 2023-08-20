@@ -352,17 +352,17 @@ input::-webkit-inner-spin-button {
 }
 .bodycontainer {
 /*	border: 3px solid green;*/
-	margin-top: 16.5%;
+	margin-top: 16%;
 	height: 45%;
 }
 h2 {
 	color: rgba(21,21,21,1);
     font-weight: bolder;
-    font-size: 3.35rem;
+    font-size: 3.05rem;
     font-family: "PoppinsExtrabold";
     line-height: 1;
     font-style: italic;
-    letter-spacing: -5.5px;
+    letter-spacing: -2.5px;
 }
 .yearr, .montt,.dayy {
 /*	border: 1px solid black;*/
