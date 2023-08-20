@@ -152,10 +152,10 @@ h2 {
 	padding-left: 7%;
 	display: flex;
 	height: 30%;
-	font-family: "PoppinsExtraboldItalic";
+	font-family: "poppins";
 }
 span {
-	font-size: 4.7rem;
+	font-size: 4.1rem;
 	color: rgb(136,78,255);
 	/* border: 1px solid blue; */
 	text-align: center;
@@ -163,7 +163,7 @@ span {
 	font-weight: bolder;
     word-spacing: -13px;
     margin-top: -2.5%;
-	font-family: "PoppinsExtraboldItalic";
+	font-family: "poppins";
 
 }
 #resultYear, #resultMonth, #resultDay {
