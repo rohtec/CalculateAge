@@ -216,7 +216,7 @@ span {
 #dem2 {
 	margin-left: -2px;
 }
-@media screen and (max-width: 738px) {
+@media screen and (max-width: 480px) {
 	body {
 	width: 100%;
 	height: 46rem;
