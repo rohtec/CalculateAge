@@ -358,7 +358,7 @@ input::-webkit-inner-spin-button {
 h2 {
 	color: rgba(21,21,21,1);
     font-weight: bolder;
-    font-size: 3.05rem;
+    font-size: 3.25rem;
     font-family: "poppins";
     line-height: 1;
     font-style: italic;
@@ -374,7 +374,6 @@ h2 {
 span {
 	font-size: 2.98rem;
 	color: rgb(136,78,255);
-/*	border: 1px solid red;*/
 	text-align: center;
 	margin-right: 1.5%;
 	font-weight: bolder;
@@ -385,7 +384,7 @@ span {
 }
  #resultYear, #resultMonth, #resultDay {
 	font-style: italic;
-	 font-size: 3.0rem
+	 font-weight: bolder;
 } 
 #demo, #demo1, #demo2 {
 /*	border: 1px solid red;*/
