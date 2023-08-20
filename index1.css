@@ -294,12 +294,13 @@ h1 {
 
 .head {
 	padding:5.2% 0 0 0 ;
+	margin-bottom:0.5%;
 /*	border: 1px solid blue;*/ 
 }
 #birthDay{
 	width: 92%;
 	height: 2.7rem;
-    margin-left: 0%;
+        margin-left: 0%;
 }
 #birthMonth{
 	width: 92%;
@@ -357,11 +358,11 @@ input::-webkit-inner-spin-button {
 h2 {
 	color: rgba(21,21,21,1);
     font-weight: bolder;
-    font-size: 3.45rem;
+    font-size: 3.35rem;
     font-family: "PoppinsExtrabold";
     line-height: 1;
     font-style: italic;
-    letter-spacing: -2.5px;
+    letter-spacing: -5.5px;
 }
 .yearr, .montt,.dayy {
 /*	border: 1px solid black;*/
