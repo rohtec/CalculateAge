@@ -332,15 +332,15 @@ img {
     color:rgba(36,36,36,0.6) ;
     font-weight: bolder;
     font-size: 1.12rem;
-    font-family: "PoppinsExtrabold";
+    font-family: "poppins";
 }
 input {
 	border-radius: 6px;
     border: 1px solid RGB(209 209 209);
     color: rgba(36,36,36,0.9);
     font-weight: bolder;
-    font-size: 1.12rem;
-    font-family: "PoppinsExtrabold";
+    font-size: 1.29rem;
+    font-family: "poppins";
     padding-left: 8%;
     caret-color: #864CFC;
     caret-shape: block;
@@ -372,7 +372,7 @@ h2 {
 	font-family: "poppins";
 }
 span {
-	font-size: 3.04rem;
+	font-size: 2.98rem;
 	color: rgb(136,78,255);
 /*	border: 1px solid red;*/
 	text-align: center;
@@ -383,9 +383,10 @@ span {
 /*    font-style: italic;*/
     font-family: "poppins";
 }
-/* #resultYear, #resultMonth, #resultDay {
+ #resultYear, #resultMonth, #resultDay {
 	font-style: italic;
-} */
+	 font-size: 3.0rem
+} 
 #demo, #demo1, #demo2 {
 /*	border: 1px solid red;*/
 	display: flex;
