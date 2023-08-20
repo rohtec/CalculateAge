@@ -4,22 +4,13 @@ function calculateAge() {
     let birthDay = parseInt(document.getElementById("birthDay").value);
     let birthdateError = parseInt(document.getElementsByClassName('birthdateError').value);
     let currentDate = new Date();
-    // let birthDate = new Date(birthYear, birthMonth - 1 , birthDay);
+
   
     let years = currentDate.getFullYear() - birthYear;
     let months = currentDate.getMonth() - birthMonth;
     let days = currentDate.getDate() - birthDay;
   
-    let monthsWith30Days = [4, 6, 9, 11]
-    
-  
-  // Adjust the age if the birthdate hasn't occurred yet this year
-  if (currentDate.getMonth() < birthMonth ||
-      (currentDate.getMonth() === birthMonth && currentDate.getDate() < birthDate)) {
-    years--;
-    months = 12 - birthMonth + currentDate.getMonth();
-    days = currentDate.getDate() - birthDay);
-  }
+    let monthsWith30Days = [4, 6, 9, 11];
     
     if (days < 0) {
         months--;
@@ -30,7 +21,10 @@ function calculateAge() {
         years--;
         months += 13;
     }
-  
+   if (months === 12) {
+       years++;
+       months = 0;
+   }
     document.getElementById('resultYear').innerHTML = years;
     document.getElementById('resultMonth').innerHTML = months;
     document.getElementById('resultDay').innerHTML = days;
