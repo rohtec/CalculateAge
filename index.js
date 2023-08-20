@@ -12,6 +12,15 @@ function calculateAge() {
   
     let monthsWith30Days = [4, 6, 9, 11]
     
+  
+  // Adjust the age if the birthdate hasn't occurred yet this year
+  if (currentDate.getMonth() < birthMonth ||
+      (currentDate.getMonth() === birthMonth && currentDate.getDate() < birthDate)) {
+    years--;
+    months = 12 - birthMonth + currentDate.getMonth();
+    days = currentDate.getDate() - birthDay);
+  }
+    
     if (days < 0) {
         months--;
         days += new Date(currentDate.getFullYear(), currentDate.getMonth(), 0).getDate();
