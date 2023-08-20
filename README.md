@@ -1,5 +1,6 @@
 # CalculateAge
-# Frontend Mentor - Age calculator app solution
+
+##Frontend Mentor - Age calculator app solution
 
 This is a solution to the [Age calculator app challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/age-calculator-app-dF9DFFpj-Q). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 ##Description
@@ -22,7 +23,7 @@ Users will be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: https://github.com/rohtec/CalculateAge.git
 - Live Site URL: [Add live site URL here](https://your-live-site-url.com)
 
 ### Built with
