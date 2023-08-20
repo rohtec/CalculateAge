@@ -27,28 +27,6 @@ body {
 	border-bottom-right-radius: 165px;
 	border-bottom-left-radius: 20px;
 }
-@font-face {
-	font-family: "PoppinsExtrabold";
-	src: url("fonts/Poppins-ExtraBold.ttf")
-	format("ttf");
-	font-weight: normal;
-	font-style: normal;
-}
-@font-face {
-	font-family: "PoppinsExtraboldItalic";
-	src: url("fonts/Poppins-ExtraBoldItalic.ttf")
-	format("ttf");
-	font-weight: normal;
-	font-style: normal;
-}
-
-@font-face {
-	font-family: "Poppinsbold";
-	src: url("fonts/Poppins-Bold.ttf")
-	format("ttf");
-	font-weight: normal;
-	font-style: normal;
-}
 .nav {
 	display: flex;
 	margin:7% 0 0 7.3%;
@@ -70,12 +48,12 @@ body {
 	padding-right: 16%;
 }
 h1 {
-	font-family: "Poppinsbold";
+	font-family: "poppins";
 	color: rgba(36,36,36,0.6);
 	font-weight: bolder;
 	font-size: 0.75rem;
 	letter-spacing: 2.3px;
-	/* font-variant: small-caps; */
+	font-variant: small-caps;
 }
 .nav1{
 /*	border: 1px solid black;*/
@@ -245,28 +223,7 @@ span {
 	background-color: rgba(0, 0, 0, 1.0);
 /*	cursor: zoom-in; */
 }
-@font-face {
-	font-family: "PoppinsExtrabold";
-	src: url("fonts/Poppins-ExtraBold.ttf")
-	format("ttf");
-	font-weight: normal;
-	font-style: normal;
-}
-@font-face {
-	font-family: "PoppinsExtraboldItalic";
-	src: url("fonts/Poppins-ExtraBoldItalic.ttf")
-	format("ttf");
-	font-weight: normal;
-	font-style: normal;
-}
 
-@font-face {
-	font-family: "Poppinsbold";
-	src: url("fonts/Poppins-Bold.ttf")
-	format("ttf");
-	font-weight: normal;
-	font-style: normal;
-}
 .container {
 /*	border: 1px solid blue;*/
 	background-color: rgba(240,240,240,1.0);
@@ -306,13 +263,13 @@ span {
 	padding-right: 27%;
 }
 #mon {
-	padding-right: 21.8%;
+	padding-right: 19.8%;
 }
 h1 {
-	font-family: "Poppinsbold";
+	font-family: "poppins";
 	color: rgba(36,36,36,0.49);
 	font-weight: bold;
-	font-size: 0.61rem;
+	font-size: 0.45rem;
 	letter-spacing: 2.3px;
 	font-variant: small-caps;
 }
@@ -359,7 +316,7 @@ h1 {
 	height: 3.3rem;
 	border-radius: 50%;
 	border: none;
-    top: 33%;
+    top: 31%;
     right: 42%;
     position: absolute;
     cursor: pointer;
@@ -373,7 +330,7 @@ img {
 ::placeholder {
     color:rgba(36,36,36,0.6) ;
     font-weight: bolder;
-    font-size: 1.1rem;
+    font-size: 0.8rem;
     font-family: "PoppinsExtrabold";
 }
 input {
@@ -381,7 +338,7 @@ input {
     border: 1px solid RGB(209 209 209);
     color: rgba(36,36,36,0.9);
     font-weight: bolder;
-    font-size: 1.4rem;
+    font-size: 0.8rem;
     font-family: "PoppinsExtrabold";
     padding-left: 8%;
     caret-color: #864CFC;
@@ -400,8 +357,8 @@ input::-webkit-inner-spin-button {
 h2 {
 	color: rgba(21,21,21,1);
     font-weight: bolder;
-    font-size: 3.59rem;
-    font-family: "PoppinsExtraboldItalic";
+    font-size: 3.45rem;
+    font-family: "poppins";
     line-height: 1;
     font-style: italic;
     letter-spacing: -5.5px;
@@ -411,7 +368,7 @@ h2 {
 	padding-left: 7%;
 	display: flex;
 	height: 31%;
-	font-family: "PoppinsExtrabold";
+	font-family: "poppins";
 }
 span {
 	font-size: 3.04rem;
@@ -423,7 +380,7 @@ span {
     word-spacing: -10px;
     margin-top: 0%;
 /*    font-style: italic;*/
-    font-family: "PoppinsExtraboldItalic";
+    font-family: "poppins";
 }
 /* #resultYear, #resultMonth, #resultDay {
 	font-style: italic;
@@ -479,7 +436,7 @@ span {
 	display: none;
 	margin-top: 2%;
     font-size: 0.67rem;
-    font-family: "Poppinsbold";
+    font-family: "poppins";
     font-weight: 500;
     word-spacing: 0.5px;
     color: #D51E1E;
