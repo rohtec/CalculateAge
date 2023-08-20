@@ -142,7 +142,7 @@ h2 {
 	color: rgba(21,21,21,1);
     font-weight: bolder;
     font-size: 5.4rem;
-    font-family: "PoppinsExtraboldItalic";
+    font-family: "poppins";
     line-height: 0.9;
     font-style: italic;
     letter-spacing: -3.5px;
@@ -331,7 +331,7 @@ img {
 ::placeholder {
     color:rgba(36,36,36,0.6) ;
     font-weight: bolder;
-    font-size: 0.98rem;
+    font-size: 1.12rem;
     font-family: "PoppinsExtrabold";
 }
 input {
@@ -339,7 +339,7 @@ input {
     border: 1px solid RGB(209 209 209);
     color: rgba(36,36,36,0.9);
     font-weight: bolder;
-    font-size: 0.8rem;
+    font-size: 1.12rem;
     font-family: "PoppinsExtrabold";
     padding-left: 8%;
     caret-color: #864CFC;
@@ -359,7 +359,7 @@ h2 {
 	color: rgba(21,21,21,1);
     font-weight: bolder;
     font-size: 3.05rem;
-    font-family: "PoppinsExtrabold";
+    font-family: "poppins";
     line-height: 1;
     font-style: italic;
     letter-spacing: -2.5px;
