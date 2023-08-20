@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Age Calculator App</title>
+	<link rel="stylesheet" type="text/css" href="index1.css">
+	<script src="index.js"></script>
+</head>
+<body>
+    <div class="container">
+   	<div class="childcontainer">
+        <div class="head">
+        <ul class="nav">
+   	 	 <list id = 'day' ><h1 id="day1">DAY</h1></list>
+   	 	 <list id = 'mon'><h1 id="mon1">MONTH</h1></list>
+   	 	 <list id = 'year'><h1 id="year1">YEAR</h1></list>
+   	 	</ul>
+   	    </div>
+
+   	 	<div id="list">
+   	 	  	<div class="input">
+   	 	  	<ul class="navv">
+   	    	  <list><input type="number" id="birthDay" placeholder="DD" ></list>
+   	 	      <list><input type="number" id="birthMonth" placeholder="MM"  ></list> 
+   	 	      <list><input type="number" id="birthYear" placeholder="YYYY"  ></list>
+   	 	   </ul>
+   	 	   </div>
+   	 	        <div class="text">
+   	 	        <ul class="nav1">
+   	 	         <list id = 'dem'><span id="demo" >This field is required</span></list>
+   	 	         <list id = 'dem1'><span id="demo1" >This field is required</span></list>
+   	 	         <list id = 'dem2'><span id="demo2" >This field is necessary</span></list>
+   	 	        </ul>
+   	 	       </div>
+   	 	  <button onclick= "calculateAge()" type="submit" id="click"><img src="icon-arrow.svg"></button>
+			</div>
+   	 	    <div class="bodycontainer">
+   	 		    <div class="yearr"><span id="resultYear" class="birthdateError"><i>- -</i></span><h2><b>years</b></h2></div>
+   	 		    <div class="montt"><span id="resultMonth" class="birthdateError"><i>- -</i></span><h2><b>months</b></h2></div>
+   	 		    <div class="dayy"><span id="resultDay" class="birthdateError" ><i>- -</i></span><h2><b>days</b></h2></div>
+   	 		</div>
+   	 </div>
+	 </div>
+</body>
+</html>

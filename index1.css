@@ -1,0 +1,450 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+body {
+	width: 100%;
+	height: 48.5rem;
+	background-color: rgba(0, 0, 0, 1.0);
+	cursor: zoom-in;
+}
+.container {
+/*	border: 1px solid blue;*/
+	background-color: rgba(240,240,240,1.0);
+	height: 48.5rem;
+	margin: 0 13%;
+}
+.childcontainer {
+	background-color: rgba(255,255,255,1.0);
+	width: 42%;
+	height: 66%;
+	position: absolute;
+	margin: 9% 16%;
+/*	border: 1px solid black;*/
+	border-top-right-radius: 20px;
+	border-top-left-radius: 20px;
+	border-bottom-right-radius: 165px;
+	border-bottom-left-radius: 20px;
+}
+.nav {
+	display: flex;
+	margin:7% 0 0 7.3%;
+	/* border: 1px solid red; */
+    height:4%;
+    width: 80%;
+}
+.navv {
+	display: flex; 
+    width: 100%;
+    margin-top: 1%;
+/*  border: 1px solid purple;*/
+    gap: 4.8%;
+}
+#day {
+	padding-right: 22.5%;
+}
+#mon {
+	padding-right: 16%;
+}
+h1 {
+	font-family: poppins;
+	color: rgba(36,36,36,0.6);
+	font-weight: bolder;
+	font-size: 0.75rem;
+	letter-spacing: 2.3px;
+	/* font-variant: small-caps; */
+}
+.nav1{
+/*	border: 1px solid black;*/
+	display: flex;
+	width: 80%;
+	gap: 30px;
+	height: 0.8rem;
+}
+.text {
+	height: 4%;
+}
+.input {
+    width: 100%;
+/*  border: 1px solid black;*/
+}
+#list {
+/*  border: 3px solid green;*/
+  	padding-bottom: 3.9%;
+  	margin: 0 11% 0 7%;
+  	border-bottom: 1px solid RGBA(209, 209, 209, 0.8);
+}
+#birthDay {
+	width: 7.7rem;
+	height: 3.5rem;
+    margin-left: 0%;
+}
+#birthMonth {
+	width: 7.7rem;
+	height: 3.5rem;
+}
+#birthYear {
+	width: 7.7rem;
+	height: 3.5rem;
+}
+#click {
+	background-color: rgb(136,78,255);
+	width: 4.5rem;
+	height: 4.6rem;
+	border-radius: 50%;
+	border: none;
+    top:23.5%;
+    right: 7%;
+    position: absolute;
+    cursor: pointer;
+}
+img {
+	height: 2rem;
+}
+#click:hover {
+	background-color: rgb(19,19,19);
+}
+::placeholder {
+    color:rgba(36,36,36,0.6) ;
+    font-weight: bolder;
+    font-size:25px;
+    font-family: poppins;
+}
+input {
+	border-radius: 6px;
+    border: 1px solid RGB(209 209 209);
+    color: rgba(36,36,36,0.9);
+    font-weight: bolder;
+    font-size: 28px;
+    font-family: poppins;
+    padding-left: 8%;
+    caret-color: #864CFC;
+    caret-shape: block;
+    cursor: pointer;
+}
+input:active,
+input:focus {
+      outline-color:rgba(136,78,255,0.8);
+      font-family: poppins;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+	-webkit-appearance:none;
+}
+.bodycontainer {
+/*	border: 3px solid green;*/
+	margin-top: 5.3%;
+	height: 60%;
+}
+h2 {
+	color: rgba(21,21,21,1);
+    font-weight: bolder;
+    font-size: 5.4rem;
+    font-family: poppins;
+    line-height: 0.9;
+    font-style: italic;
+    letter-spacing: -3.5px;
+}
+.yearr, .montt,.dayy {
+/*	border: 1px solid black;*/
+	padding-left: 7%;
+	display: flex;
+	height: 30%;
+	font-family: poppins;
+}
+span {
+	font-size: 4.7rem;
+	color: rgb(136,78,255);
+	/* border: 1px solid blue; */
+	text-align: center;
+	margin-right: 1.5%;
+	font-weight: bolder;
+    word-spacing: -13px;
+    margin-top: -2.5%;
+}
+#resultYear, #resultMonth, #resultDay {
+	font-style: italic;
+	/* border:1px solid #D51E1E; */
+	display: block;
+}
+#demo, #demo1, #demo2 {
+	/* border: 1px solid red; */
+	display: flex;
+	height: 14px;
+	width: 7.7rem;
+	display: none;
+	margin-top: 2%;
+    font-size: 0.6rem;
+    font-family: poppins;
+    font-weight: 500;
+    word-spacing: 0.5px;
+    color: #D51E1E;
+    padding-left: 0px;
+}
+#demo {
+	margin-left: 0px;
+}
+#demo1 {
+	margin-left: -4px;
+}
+#demo2 {
+	margin-left: -9px;
+}
+
+#dem, #dem1, #dem2 {
+	
+    display: flex;
+	height: 14px;
+	width: 7.9rem;
+    font-size: 0.6rem;
+    font-family: poppins;
+    font-weight: bolder;
+    font-weight: 500;
+    word-spacing: 0.5px;
+    color: #D51E1E;
+    padding-left: 0px;
+/*    border: 1px solid red;*/
+}
+
+#dem1 {
+	margin-left: -2px;
+}
+#dem2 {
+	margin-left: -2px;
+}
+@media screen and (max-width: 768px) {
+	body {
+	width: 100%;
+	height: 47rem;
+	background-color: rgba(0, 0, 0, 1.0);
+/*	cursor: zoom-in;*/
+}
+.container {
+/*	border: 1px solid blue;*/
+	background-color: rgba(240,240,240,1.0);
+	height: 100%;
+	margin: 0 14%;
+}
+.childcontainer {
+	background-color: rgba(255,255,255,1.0);
+	width: 66%;
+	height: 59%;
+	position: absolute;
+	margin: 15% 3%;
+	border: none;
+	border-top-right-radius: 20px;
+	border-top-left-radius: 20px;
+	border-bottom-right-radius: 100px;
+	border-bottom-left-radius: 20px;
+}
+/* .top {
+	border: 1px solid darkgoldenrod;
+} */
+.nav {
+	display: flex;
+	margin:6% 0 0 7.3%;
+/*	border: 1px solid red;*/
+    height:4%;
+    width: 80%;
+}
+.navv {
+/*	display: flex; */
+    width: 100%;
+    margin-top: 1%;
+/*  border: 1px solid purple;*/
+    gap: 5.7%;
+}
+#day {
+	padding-right: 27%;
+}
+#mon {
+	padding-right: 15.8%;
+}
+h1 {
+	font-family: poppins;
+	color: rgba(36,36,36,0.49);
+	font-weight: bold;
+	font-size: 0.61rem;
+	letter-spacing: 2.3px;
+	font-variant: small-caps;
+}
+.nav1{
+	/* border: 1px solid black; */
+	display: flex;
+	width: 100%;
+	height: 0.85rem;
+}
+.text {
+	height: 4%;
+}
+.input {
+    width: 100%;
+}
+#list {
+/*  border: 3px solid green;*/
+  	padding-bottom: 16.5%;
+  	margin: 0 8% 0 7%;
+  	border-bottom: 1px solid RGBA(209, 209, 209, 0.8);
+}
+
+.head {
+	padding:5.2% 0 0 0 ;
+/*	border: 1px solid blue;*/ 
+}
+#birthDay{
+	width: 4.9rem;
+	height: 2.7rem;
+    margin-left: 0%;
+}
+#birthMonth{
+	width: 4.9rem;
+	height: 2.7rem;
+}
+#birthYear {
+	width: 4.9rem;
+	height: 2.7rem;
+}
+
+#click {
+	background-color: rgb(136,78,255);
+	width: 3.3rem;
+	height: 3.3rem;
+	border-radius: 50%;
+	border: none;
+    top: 32%;
+    right: 42%;
+    position: absolute;
+    cursor: pointer;
+}
+img {
+	height: 1.3rem;
+}
+#click:hover {
+	background-color: rgb(19,19,19);
+}
+::placeholder {
+    color:rgba(36,36,36,0.6) ;
+    font-weight: bolder;
+    font-size: 1.1rem;
+    font-family: poppins;
+}
+input {
+	border-radius: 6px;
+    border: 1px solid RGB(209 209 209);
+    color: rgba(36,36,36,0.9);
+    font-weight: bolder;
+    font-size: 1.4rem;
+    font-family: poppins;
+    padding-left: 8%;
+    caret-color: #864CFC;
+    caret-shape: block;
+    cursor: pointer;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+	-webkit-appearance:none;
+}
+.bodycontainer {
+/*	border: 3px solid green;*/
+	margin-top: 18.5%;
+	height: 45%;
+}
+h2 {
+	color: rgba(21,21,21,1);
+    font-weight: bolder;
+    font-size: 3.20rem;
+    font-family: poppins;
+    line-height: 1;
+    font-style: italic;
+    letter-spacing: -5.5px;
+}
+.yearr, .montt,.dayy {
+/*	border: 1px solid black;*/
+	padding-left: 7%;
+	display: flex;
+	height: 31%;
+	font-family: poppins;
+}
+span {
+	font-size: 3.04rem;
+	color: rgb(136,78,255);
+/*	border: 1px solid red;*/
+	text-align: center;
+	margin-right: 1.5%;
+	font-weight: bolder;
+    word-spacing: -10px;
+    margin-top: -4%;
+/*    font-style: italic;*/
+    font-family: poppins;
+}
+/* #resultYear, #resultMonth, #resultDay {
+	font-style: italic;
+} */
+#demo, #demo1, #demo2 {
+/*	border: 1px solid red;*/
+	display: flex;
+	height: 14px;
+	width: 5rem;
+	display: none;
+	margin-top: 2%;
+    font-size: 0.45rem;
+    font-family: poppins;
+    font-weight: 500;
+    word-spacing: -1.8px;
+    color: #D51E1E;
+/*/ padding-right: 0px;*/
+}
+#demo {
+	margin-left: 0px;
+}
+#demo1 {
+	margin-left: -25%;
+}
+#demo2 {
+	margin-left: -45%;
+}#dem, #dem1, #dem2 {
+	
+    display: flex;
+	height: 14px;
+	width: 4.6rem;
+    font-size: 0.5rem;
+    font-family: poppins;
+    font-weight: bolder;
+    font-weight: 500;
+    word-spacing: 0.5px;
+    color: #D51E1E;
+    padding-left: 0px;
+    /* border: 1px solid red; */
+}
+
+#dem1 {
+	margin-left: -10px;
+}
+#dem2 {
+	margin-left: -9px;
+}
+#demo, #demo1, #demo2 {
+	border: 1px solid red;
+	display: flex;
+	height: 14px;
+	width: 7.7rem;
+	display: none;
+	margin-top: 2%;
+    font-size: 0.67rem;
+    font-family: poppins;
+    font-weight: 500;
+    word-spacing: 0.5px;
+    color: #D51E1E;
+    padding-left: 0px;
+}
+#demo {
+	margin-left: 0px;
+}
+#demo1 {
+	margin-left: -4px;
+}
+#demo2 {
+	margin-left: -1px;
+}
+}
